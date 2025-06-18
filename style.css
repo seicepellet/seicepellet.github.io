@@ -1,0 +1,14 @@
+body {background: linear-gradient(to bottom, #f0f0f0, #515050) !important;
+margin: 0;
+padding: 20px;
+font-family: sans-serif;
+}
+
+nav {margin-bottom: 20px;
+}
+
+nav a {margin-right: 15px;
+text-decoration: none;
+color: #333333;
+font-weight: bold;
+}
