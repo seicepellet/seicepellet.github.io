@@ -1,25 +1,36 @@
 html, body {
   height: 100%;
   margin: 0;
-  font-family: 'Nanum Pen Script', cursive;
   padding: 20px;
+  font-family: 'Nanum Brush script', cursive;
   color: #333;
 
-  background-image: url('./images/rahmen.png');
-  background-size: contain;
-  background-position: center center;
-  background-repeat: no-repeat;
+    background: linear-gradient(135deg,
+    #b0b0b0,
+    #c0c0c0,
+    #f0e6f6,
+    #e0f7fa,
+    #f8e9f0,
+    #d0d0d0
+  );
+  background-size: 800% 800%;
+  animation: gradientFlow 30s ease infinite;
+
+  position: relative;
+  overflow: hidden;
 }
 
-body::before {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255,255,255,0.7);
-  z-index: -1;
+@keyframes gradientFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h1 {
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 40px;
 }
 
 @media (max-width: 768px) {
@@ -30,18 +41,23 @@ body::before {
 
 nav a {
   color: #666666;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid #666666;
+  padding-bottom: 2px;
+  transition: border-bottom 0.2s ease;
 }
 
 nav a:link,
 nav a:visited {
-  color: #666666 !important;
-  text-decoration: underline !important;
+  color: #666666;
+  text-decoration: none;
+  border-bottom: 1px solid #666666;
 }
 nav a:hover {
-  color: #000000 !important;
+  color: #000000;
+  border-bottom: none;
 }
 nav a:active {
-  color: #666666 !important;
-  text-decoration: underline !important;
+  color: #666666;
+  border-bottom: 1px solid #666666;
 }
