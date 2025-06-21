@@ -30,15 +30,18 @@ body::before {
 
 nav a {
   color: #666666;
+  text-decoration: underline;
 }
 
-nav a: link,
-nav a: visited {
-  color: #666666;
+nav a:link,
+nav a:visited {
+  color: #666666 !important;
+  text-decoration: underline !important;
 }
-nav a: hover {
-  color: #000000;
+nav a:hover {
+  color: #000000 !important;
 }
-nav a: active {
-  color: #666666;
+nav a:active {
+  color: #666666 !important;
+  text-decoration: underline !important;
 }
