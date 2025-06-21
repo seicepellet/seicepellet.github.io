@@ -72,3 +72,10 @@ nav a:active span {
   color: #666666;
   border-bottom: 1px solid #666666;
 }
+
+#awards li strong,
+#experience li strong {
+  display: inline-block;
+  margin-right: 0.5ch;
+  font-weight: bold;
+}
