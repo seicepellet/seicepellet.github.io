@@ -1,6 +1,6 @@
 /* style.css */
 html, body {
-  height: 100%;
+  height: auto;
   margin: 0;
   padding: 20px;
   color: #333;
@@ -16,8 +16,7 @@ html, body {
   background-size: 800% 800%;
   animation: gradientFlow 30s ease infinite;
 
-  position: relative;
-  overflow: hidden;
+  overflow: auto;
   box-sizing: border-box;
 }
 
