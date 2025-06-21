@@ -27,3 +27,18 @@ body::before {
     padding: 10px;
   }
 }
+
+nav a {
+  color: #666666;
+}
+
+nav a: link,
+nav a: visited {
+  color: #666666;
+}
+nav a: hover {
+  color: #000000;
+}
+nav a: active {
+  color: #666666;
+}
