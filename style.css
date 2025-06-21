@@ -21,3 +21,9 @@ body::before {
   background: rgba(255,255,255,0.7);
   z-index: -1;
 }
+
+@media (max-width: 768px) {
+  html, body {
+    padding: 10px;
+  }
+}
