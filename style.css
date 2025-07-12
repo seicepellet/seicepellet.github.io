@@ -41,12 +41,15 @@ h1 {
   .project-card {
     flex-direction: column;
     gap: 10px;
+    max-width: 100%;
   }
 
   .card-image {
     width: 240px;
     height: auto;
     margin: 0 auto;
+    max-width: 100%;
+    display: block;
   }
 }
 
