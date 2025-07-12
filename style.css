@@ -37,6 +37,16 @@ h1 {
   html, body {
     padding: 10px;
   }
+
+  .project-card {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
 }
 
 nav {
