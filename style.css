@@ -44,8 +44,9 @@ h1 {
   }
 
   .card-image {
-    width: 100%;
+    width: 400px;
     height: auto;
+    margin: 0 auto;
   }
 }
 
